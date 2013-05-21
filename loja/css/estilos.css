@@ -1,0 +1,284 @@
+body, div, h1, h2, h3, h4, h5, h6, img, p, ul { margin: 0px; padding: 0px; }
+a img { border: none; }
+
+body {
+  font-family: "Arial", "Helvetica", Sans-serif;
+}
+
+.conteudo {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "\0020";
+  display: block;
+  clear: both;
+  height: 0;
+  color: transparent;
+}
+
+#cabecalho {
+  background: url('../images/header.jpg') repeat-x;
+}
+
+#cabecalho .conteudo {
+  height: 165px;
+}
+
+#rodape {
+  background: url('../images/footer.jpg') repeat-x;
+  color: #FFFFF1;
+  font-size: 12px;
+  height: 87px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#cabecalho h1 {
+  background: url('../images/logo.jpg') no-repeat;
+  color: transparent;
+  float: left;
+  height: 128px;
+  position: relative;
+  text-indent: -9999px;
+  top: 20px;
+  width: 207px;
+}
+
+#menu_topo {
+  float: right;
+  list-style: none;
+  position: relative;
+  top: 16px;
+}
+
+#menu_topo li {
+  float: left;
+  padding: 0px 5px;
+}
+
+#menu_topo li a:link,
+#menu_topo li a:visited {
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#menu_topo li a:hover,
+#menu_topo li a:active {
+  background-color: #030339;
+  border-radius: 5px;
+  color: #FFF;
+  padding: 8px;
+}
+
+#info {
+  float: left;
+}
+
+#info ul li {
+  display: inline;
+}
+
+#info ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#newsletter {
+  background-color: #1D1F46;
+  float: right;
+  font-size: 14px;
+  padding: 13px;
+  position: relative;
+  top: -10px;
+  width: 461px;
+}
+
+#newsletter p img {
+  position: relative;
+  top: 10px;
+}
+
+#menu_secoes,
+#menu_secoes ul {
+  list-style: none;
+}
+
+#menu_secoes {
+  background: url('../images/jeans.jpg');
+  clear: right;
+  float: right;
+  position: relative;
+  top: 28px;
+}
+
+#menu_secoes li {
+  float: left;
+}
+
+#menu_secoes li a.inicial:link,
+#menu_secoes li a.inicial:visited {
+  color: #FFF;
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#menu_secoes li ul {
+  background: #FCFCFC;
+  border-radius: 0px 0px 6px 6px;
+  display: none;
+  left: 1px;
+  position: absolute;
+  width: 418px;
+}
+
+#menu_secoes li ul li a:link,
+#menu_secoes li ul li a:visited {
+  color: #696969;
+  display: block;
+  float: left;
+  font-size: 12px;
+  padding: 10px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#menu_secoes li a.selecionado:link,
+#menu_secoes li a.selecionado:visited {
+  background: url('../images/menu_hover.jpg') no-repeat bottom;
+}
+
+#titulo_carrinho {
+  color: #333;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 10px 0 16px;
+  text-transform: uppercase;
+}
+
+#carrinho {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+#carrinho li {
+  border-top: 1px dotted #CCC;
+  padding: 15px;
+}
+
+#carrinho li:last-child {
+  border-bottom: 1px dotted #CCC;  
+}
+
+#carrinho li img {
+  float: left;
+  margin-right: 15px;
+}
+
+#carrinho li h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+#carrinho .item_info {
+  float: left;
+  margin-right: 120px;
+}
+
+#carrinho a:link,
+#carrinho a:visited {
+  font-size: 10px;
+  margin-left: 50px;
+}
+
+#carrinho li > p {
+  color: rgb(51,102,204);
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+#total_carrinho {
+  background-color: rgb(220,220,220);
+}
+
+#principal h2, #principal div:first-child {
+  margin-top: 25px;
+}
+
+#consulta_frete {
+  background: rgb(220,220,220);
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#consulta_frete h3 {
+  margin-bottom: 12px;
+}
+
+.resultado_cep,
+#consulta_cep {
+  display: inline;
+}
+
+.resultado_cep {
+  color: rgb(0,51,102);
+  font-weight: bold;
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
+}
+
+.conteudo > p{
+	display:inline-block;
+	position: absolute;
+	left: 0;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+#tweets h3{
+	margin-bottom: 5px;
+}
+
+#tweets ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}		
+
+#tweets li p{
+	display: inline;
+	margin: 0;
+	padding: 0;				
+}
+
+#carrinho li a{
+	outline: none;
+}
+
+.dialogo{
+  font-family: "Arial", "Helvetica", Sans-serif;
+  color: #333;
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/*
+#carrinho li form a {
+  display: none;
+}
+*/

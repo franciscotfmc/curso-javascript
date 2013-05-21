@@ -1,0 +1,18 @@
+label {
+  display: block;
+	color: #555;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 4px;
+}
+
+input{
+  border: 2px solid #999;
+  border-radius: 3px;
+  font-size: 18px;
+ 	padding: 5px;
+}
+
+form .error{
+	color: red;
+}

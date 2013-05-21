@@ -1,0 +1,18 @@
+#produto{
+	padding: 0px 0;
+}
+
+#produto img{
+	float: left; 
+	padding-right: 10px;
+}
+
+#produto h1{
+	padding-bottom: 5px; 
+	margin: 0;
+	font-size: 20px;
+}
+
+#rodape{
+	clear: both;
+}
